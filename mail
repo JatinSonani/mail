@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    
+    <script>
+        
+        let validUserId = "sonanijatin23@gmail.com";
+        let validPassword = "12345";
+
+    
+        let userId = prompt("Enter User ID:");
+        let password = prompt("Enter Password:");
+
+    
+        if (userId == validUserId) {
+            if (password == validPassword) {
+                console.log("Login successful!");
+            } else {
+                console.log("Invalid password. Please try again.");
+            }
+        } else {
+            console.log("Invalid user ID. Please try again.");
+        }
+    </script>
+</body>
+</html>
+
